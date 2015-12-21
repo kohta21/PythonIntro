@@ -1,20 +1,20 @@
-# -*- coding: utf-8 -*-
+ï»¿# -*- coding: utf-8 -*-
 
-# ƒ‚ƒWƒ…[ƒ‹‚ÌƒCƒ“ƒ|[ƒg
+# ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
 import webbrowser
 import time
 
 url ="https://www.youtube.com/user/Bz"
 
-#Python‚Å‚Íƒ‹[ƒv‚È‚Ç‚Í0‚©‚çn‚Ü‚é‚±‚Æ‚É’ˆÓI
+#Pythonã§ã¯ãƒ«ãƒ¼ãƒ—ãªã©ã¯0ã‹ã‚‰å§‹ã¾ã‚‹ã“ã¨ã«æ³¨æ„ï¼
 
-# for loop‚Å‰ñ”‚ğ–¾¦“I or •Ï”‚Åw’è
+# for loopã§å›æ•°ã‚’æ˜ç¤ºçš„ or å¤‰æ•°ã§æŒ‡å®š
 for num in range(2):
     time.sleep(10)
     #webbrowser.open(url)
     print 'loop =', num + 1
 
-# while loop‚ğ—p‚¢‚é•û–@
+# while loopã‚’ç”¨ã„ã‚‹æ–¹æ³•
 total_breaks = 3
 break_count = 0
 while (break_count < total_breaks):
