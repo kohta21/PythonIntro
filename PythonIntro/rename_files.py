@@ -28,6 +28,8 @@ def rename_files2():
     #(2) for each file, rename filename
     p_dir = p_dir + "\\"    
     for file_name in file_list:
+        print("Old Name - " + file_name)
+        print("New Name - " + file_name.translate(None, "0123456789") )
         os.rename(p_dir + file_name, p_dir + file_name.translate(None, "0123456789"))
     #os.chdir(saved_path)
 
