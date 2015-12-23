@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e8586e1b-4c87-4b31-9218-245932a6eb87</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mindstorms.py</StartupFile>
+    <StartupFile>check_profanity.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="PythonIntro.py" />
+    <Compile Include="check_profanity.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mindstorms%28bad%29.py">
       <SubType>Code</SubType>
     </Compile>
